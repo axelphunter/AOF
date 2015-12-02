@@ -22,3 +22,7 @@ main {
     margin: 5% auto;
     text-indent: -9999em;
     white-space: nowrap; }
+
+@media only screen and (max-width: 979px) {
+  main .logo {
+    width: 90%; } }

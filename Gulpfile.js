@@ -34,13 +34,13 @@ gulp.task('useref', function () {
 });
 
 gulp.task('sass', function() {
-	return gulp.src('app/sass/**/*.sass') // Gets all files ending with .scss in app/scss and children dirs
+	return gulp.src('app/scss/**/*.scss') // Gets all files ending with .scss in app/scss and children dirs
 		.pipe(sass())
 		.pipe(gulp.dest('app/css'))
 });
 
 gulp.task('watch', function(){
-	gulp.watch('app/sass/**/*.sass', ['sass']);
+	gulp.watch('app/scss/**/*.scss', ['sass']);
 });
 
 gulp.task('clean', function() {
