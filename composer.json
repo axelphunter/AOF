@@ -1,0 +1,10 @@
+{
+    "name": "root/aof",
+    "authors": [
+        {
+            "name": "Axel Hunter",
+            "email": "axel@axelhunter.net"
+        }
+    ],
+    "require": {}
+}
