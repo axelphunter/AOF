@@ -28,6 +28,8 @@ gulp.task('default', function (callback) {
 gulp.task('useref', function () {
 	return gulp.src('app/*.html')
 		.pipe(useref())
+		.pipe(gulpIf('*.css', minifyCSS()))
+		.pipe(gulpIf('*.js', uglify()))
 		.pipe(gulp.dest('dist'));
 });
 
