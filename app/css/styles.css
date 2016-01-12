@@ -1,25 +1,17 @@
-body {
-  background: #37173c url("/images/concrete_wall.png"); }
-
 main {
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(255, 230, 68, 0.47);
-  background: -moz-radial-gradient(center, ellipse cover, rgba(255, 230, 68, 0.47) 0%, rgba(231, 56, 39, 0.11) 76%, rgba(231, 56, 39, 0) 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255, 230, 68, 0.47)), color-stop(76%, rgba(231, 56, 39, 0.11)), color-stop(100%, rgba(231, 56, 39, 0)));
-  background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 230, 68, 0.47) 0%, rgba(231, 56, 39, 0.11) 76%, rgba(231, 56, 39, 0) 100%);
-  background: -o-radial-gradient(center, ellipse cover, rgba(255, 230, 68, 0.47) 0%, rgba(231, 56, 39, 0.11) 76%, rgba(231, 56, 39, 0) 100%);
-  background: -ms-radial-gradient(center, ellipse cover, rgba(255, 230, 68, 0.47) 0%, rgba(231, 56, 39, 0.11) 76%, rgba(231, 56, 39, 0) 100%);
-  background: radial-gradient(ellipse at center, rgba(255, 230, 68, 0.47) 0%, rgba(231, 56, 39, 0.11) 76%, rgba(231, 56, 39, 0) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe644', endColorstr='#e73827', GradientType=1 ); }
+  background: #37173c url("/images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
   main .logo {
     background: url("/images/logo.png") no-repeat center;
     width: 800px;
     height: 612px;
-    margin: 5% auto;
+    margin: 1% auto;
     text-indent: -9999em;
     white-space: nowrap; }
 
