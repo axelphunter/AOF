@@ -1,14 +1,28 @@
+@font-face {
+  font-family: Comfortaa;
+  src: url("/fonts/Comfortaa_Regular.ttf");
+}
+
+@font-face {
+  font-family: Comfortaa;
+  src: url("/fonts/Comfortaa_Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Comfortaa;
+  src: url("/fonts/Comfortaa_Thin.ttf");
+  font-weight: 100;
+}
+
 body {
 
 }
 
 main {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  font-family: Comfortaa, "Open Sans", sans-serif;
   background: rgba(55,23,60,1) url("/images/bg.jpg");
+  background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
   //background: rgba(255,230,68,0.47);
@@ -20,14 +34,68 @@ main {
   //background: radial-gradient(ellipse at center, rgba(255,230,68,0.47) 0%, rgba(231,56,39,0.11) 76%, rgba(231,56,39,0) 100%);
   //filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe644', endColorstr='#e73827', GradientType=1 );
 
-  .logo {
-    background: url("/images/logo.png") no-repeat center;
+  .wrapper {
     width: 800px;
-    height: 612px;
-    margin: 1% auto;
-    text-indent: -9999em;
-    white-space: nowrap;
+    margin: 0 auto;
+    color: #fff;
+
+    .logo {
+      background: url("/images/logo.png") no-repeat center;
+      width: 800px;
+      height: 450px;
+      margin: 1% auto;
+      text-indent: -9999em;
+      white-space: nowrap;
+    }
+
+    h4 {
+      font-weight: bold;
+      font-size: 2em;
+      letter-spacing: 0.1em;
+      margin-top: 1em;
+      text-transform: uppercase;
+    }
+
+    p {
+      text-align: justify;
+      font-size: 1.2em;
+      line-height: 1.2em;
+      margin-top: 0.5em;
+    }
+
+    h2 {
+      font-size: 5em;
+      text-align: center;
+      font-weight: bold;
+      letter-spacing: 0.1em;
+      margin-top: 1em;
+    }
+
+    .calign {
+      text-align: center;
+    }
+
+    h3 {
+      font-size: 1.2em;
+      margin-top: 0.5em;
+
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.8em;
+      font-weight: 100;
+      padding: 5em 0;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+    }
+
   }
+
 
 }
 

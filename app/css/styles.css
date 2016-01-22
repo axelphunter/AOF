@@ -1,19 +1,66 @@
+@font-face {
+  font-family: Comfortaa;
+  src: url("/fonts/Comfortaa_Regular.ttf"); }
+
+@font-face {
+  font-family: Comfortaa;
+  src: url("/fonts/Comfortaa_Bold.ttf");
+  font-weight: bold; }
+
+@font-face {
+  font-family: Comfortaa;
+  src: url("/fonts/Comfortaa_Thin.ttf");
+  font-weight: 100; }
+
 main {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  font-family: Comfortaa, "Open Sans", sans-serif;
   background: #37173c url("/images/bg.jpg");
+  background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat; }
-  main .logo {
-    background: url("/images/logo.png") no-repeat center;
+  main .wrapper {
     width: 800px;
-    height: 612px;
-    margin: 1% auto;
-    text-indent: -9999em;
-    white-space: nowrap; }
+    margin: 0 auto;
+    color: #fff; }
+    main .wrapper .logo {
+      background: url("/images/logo.png") no-repeat center;
+      width: 800px;
+      height: 450px;
+      margin: 1% auto;
+      text-indent: -9999em;
+      white-space: nowrap; }
+    main .wrapper h4 {
+      font-weight: bold;
+      font-size: 2em;
+      letter-spacing: 0.1em;
+      margin-top: 1em;
+      text-transform: uppercase; }
+    main .wrapper p {
+      text-align: justify;
+      font-size: 1.2em;
+      line-height: 1.2em;
+      margin-top: 0.5em; }
+    main .wrapper h2 {
+      font-size: 5em;
+      text-align: center;
+      font-weight: bold;
+      letter-spacing: 0.1em;
+      margin-top: 1em; }
+    main .wrapper .calign {
+      text-align: center; }
+    main .wrapper h3 {
+      font-size: 1.2em;
+      margin-top: 0.5em; }
+      main .wrapper h3 a {
+        text-decoration: none;
+        color: #fff; }
+    main .wrapper footer {
+      text-align: center;
+      font-size: 0.8em;
+      font-weight: 100;
+      padding: 5em 0;
+      letter-spacing: 0.2em;
+      text-transform: uppercase; }
 
 @media only screen and (max-width: 979px) {
   main .logo {
