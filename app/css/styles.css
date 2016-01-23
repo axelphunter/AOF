@@ -17,7 +17,8 @@ main {
   background: #37173c url("/images/bg.jpg");
   background-attachment: fixed;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  min-width: 900px; }
   main .wrapper {
     width: 800px;
     margin: 0 auto;
