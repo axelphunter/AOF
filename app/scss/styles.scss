@@ -39,6 +39,7 @@ main {
     width: 800px;
     margin: 0 auto;
     color: #fff;
+    text-align: center;
 
     .logo {
       background: url("/images/logo.png") no-repeat center;
@@ -69,7 +70,14 @@ main {
       text-align: center;
       font-weight: bold;
       letter-spacing: 0.1em;
-      margin-top: 1em;
+      margin-top: 0.2em;
+    }
+
+    .section-image {
+      max-width: 80%;
+      border-radius: 20px;
+      margin: 2em auto;
+      border: 10px solid #fff;
     }
 
     .calign {
@@ -83,6 +91,29 @@ main {
       a {
         text-decoration: none;
         color: #fff;
+      }
+    }
+
+    .social {
+      width: 100%;
+      text-align: center;
+      padding: 20px 0px;
+
+      li {
+        display: inline-block;
+        margin: 0px 20px;
+        font-size: 1.5em;
+        background: #fff;
+        width: 30px;
+        height: 30px;
+        vertical-align: middle;
+        padding: 10px;
+        border-radius: 100%;
+
+        a {
+          vertical-align: middle;
+          color: #4A17CE;
+        }
       }
     }
 

@@ -22,7 +22,8 @@ main {
   main .wrapper {
     width: 800px;
     margin: 0 auto;
-    color: #fff; }
+    color: #fff;
+    text-align: center; }
     main .wrapper .logo {
       background: url("/images/logo.png") no-repeat center;
       width: 800px;
@@ -46,7 +47,12 @@ main {
       text-align: center;
       font-weight: bold;
       letter-spacing: 0.1em;
-      margin-top: 1em; }
+      margin-top: 0.2em; }
+    main .wrapper .section-image {
+      max-width: 80%;
+      border-radius: 20px;
+      margin: 2em auto;
+      border: 10px solid #fff; }
     main .wrapper .calign {
       text-align: center; }
     main .wrapper h3 {
@@ -55,6 +61,23 @@ main {
       main .wrapper h3 a {
         text-decoration: none;
         color: #fff; }
+    main .wrapper .social {
+      width: 100%;
+      text-align: center;
+      padding: 20px 0px; }
+      main .wrapper .social li {
+        display: inline-block;
+        margin: 0px 20px;
+        font-size: 1.5em;
+        background: #fff;
+        width: 30px;
+        height: 30px;
+        vertical-align: middle;
+        padding: 10px;
+        border-radius: 100%; }
+        main .wrapper .social li a {
+          vertical-align: middle;
+          color: #4A17CE; }
     main .wrapper footer {
       text-align: center;
       font-size: 0.8em;
