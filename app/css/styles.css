@@ -12,6 +12,22 @@
   src: url("/fonts/Comfortaa_Thin.ttf");
   font-weight: 100; }
 
+body .sound-on, body .sound-off, body .close-slideshow {
+  position: absolute;
+  top: 20px;
+  z-index: 99999999999999999999;
+  width: 40px;
+  cursor: pointer; }
+
+body .sound-on, body .sound-off {
+  right: 70px; }
+
+body .sound-off {
+  display: none; }
+
+body .close-slideshow {
+  right: 10px; }
+
 main {
   font-family: Comfortaa, "Open Sans", sans-serif;
   background: #37173c url("/images/bg.jpg");
@@ -24,6 +40,8 @@ main {
     margin: 0 auto;
     color: #fff;
     text-align: center; }
+    main .wrapper .slideshow-btn {
+      cursor: pointer; }
     main .wrapper .logo {
       background: url("/images/logo.png") no-repeat center;
       width: 800px;
@@ -51,8 +69,7 @@ main {
     main .wrapper .section-image {
       max-width: 80%;
       border-radius: 20px;
-      margin: 2em auto;
-      border: 10px solid #fff; }
+      margin: 2em auto; }
     main .wrapper .calign {
       text-align: center; }
     main .wrapper h3 {

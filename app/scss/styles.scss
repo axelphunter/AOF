@@ -16,7 +16,25 @@
 }
 
 body {
+  .sound-on, .sound-off, .close-slideshow {
+    position: absolute;
+    top: 20px;
+    z-index: 99999999999999999999;
+    width: 40px;
+    cursor: pointer;
+  }
 
+  .sound-on, .sound-off {
+    right: 70px;
+  }
+
+  .sound-off {
+    display: none;
+  }
+
+  .close-slideshow {
+    right: 10px;
+  }
 }
 
 main {
@@ -40,6 +58,10 @@ main {
     margin: 0 auto;
     color: #fff;
     text-align: center;
+
+    .slideshow-btn {
+      cursor: pointer;
+    }
 
     .logo {
       background: url("/images/logo.png") no-repeat center;
@@ -77,7 +99,6 @@ main {
       max-width: 80%;
       border-radius: 20px;
       margin: 2em auto;
-      border: 10px solid #fff;
     }
 
     .calign {
