@@ -12,96 +12,106 @@
   src: url("/fonts/Comfortaa_Thin.ttf");
   font-weight: 100; }
 
-body .sound-on, body .sound-off, body .close-slideshow {
-  position: absolute;
-  top: 20px;
-  z-index: 99999999999999999999;
-  width: 40px;
-  cursor: pointer; }
+body {
+  background-color: #fff;
+  font-family: "Open Sans", sans-serif; }
+  body .sound-on, body .sound-off, body .close-slideshow {
+    position: absolute;
+    top: 20px;
+    z-index: 99999999999999999999;
+    width: 40px;
+    cursor: pointer; }
+  body .sound-on, body .sound-off {
+    right: 70px; }
+  body .sound-off {
+    display: none; }
+  body .close-slideshow {
+    right: 10px; }
 
-body .sound-on, body .sound-off {
-  right: 70px; }
-
-body .sound-off {
-  display: none; }
-
-body .close-slideshow {
-  right: 10px; }
-
-main {
-  font-family: Comfortaa, "Open Sans", sans-serif;
+header {
   background: #37173c url("/images/bg.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  min-width: 900px; }
-  main .wrapper {
+  min-width: 900px;
+  padding: 4em 0; }
+  header .logo {
+    background: url("/images/logo.png") no-repeat center;
     width: 800px;
+    height: 450px;
     margin: 0 auto;
-    color: #fff;
-    text-align: center; }
-    main .wrapper .slideshow-btn {
-      cursor: pointer; }
-    main .wrapper .logo {
-      background: url("/images/logo.png") no-repeat center;
+    text-indent: -9999em;
+    white-space: nowrap; }
+
+main {
+  color: #3A3A3A; }
+  main section {
+    padding: 4em; }
+    main section .wrapper {
       width: 800px;
-      height: 450px;
       margin: 0 auto;
-      text-indent: -9999em;
-      white-space: nowrap; }
-    main .wrapper h4 {
-      font-weight: bold;
-      font-size: 2em;
-      letter-spacing: 0.1em;
-      margin-top: 1em;
-      text-transform: uppercase; }
-    main .wrapper p {
-      text-align: justify;
-      font-size: 1.2em;
-      line-height: 1.2em;
-      margin-top: 0.5em; }
-    main .wrapper h2 {
-      font-size: 5em;
-      text-align: center;
-      font-weight: bold;
-      letter-spacing: 0.1em;
-      margin-top: 0.2em; }
-    main .wrapper .section-image {
-      max-width: 80%;
-      border-radius: 20px;
-      margin: 2em auto; }
-    main .wrapper .calign {
       text-align: center; }
-    main .wrapper h3 {
-      font-size: 1.2em;
-      margin-top: 0.5em; }
-      main .wrapper h3 a {
-        text-decoration: none;
-        color: #fff; }
-    main .wrapper .social {
-      width: 100%;
-      text-align: center;
-      padding: 20px 0px; }
-      main .wrapper .social li {
-        display: inline-block;
-        margin: 0px 20px;
-        font-size: 1.5em;
-        background: #fff;
-        width: 30px;
-        height: 30px;
-        vertical-align: middle;
-        padding: 10px;
-        border-radius: 100%; }
-        main .wrapper .social li a {
+      main section .wrapper .section-image {
+        margin-top: 2em; }
+      main section .wrapper .slideshow-btn {
+        cursor: pointer; }
+      main section .wrapper h4 {
+        font-weight: bold;
+        font-size: 2em;
+        margin-top: 1em;
+        text-transform: uppercase; }
+      main section .wrapper p {
+        text-align: justify;
+        font-size: 1.2em;
+        line-height: 1.2em;
+        margin-top: 0.5em; }
+      main section .wrapper h2 {
+        font-size: 5em;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 0.2em; }
+      main section .wrapper .calign {
+        text-align: center; }
+      main section .wrapper h3 {
+        font-size: 1.2em;
+        margin-top: 0.5em; }
+        main section .wrapper h3 a {
+          text-decoration: none;
+          color: #7B27B1; }
+      main section .wrapper .social {
+        width: 100%;
+        text-align: center;
+        padding: 20px 0px; }
+        main section .wrapper .social li {
+          display: inline-block;
+          margin: 0px 20px;
+          font-size: 1.5em;
+          background: #fff;
+          width: 30px;
+          height: 30px;
           vertical-align: middle;
-          color: #4A17CE; }
-    main .wrapper footer {
-      text-align: center;
-      font-size: 0.8em;
-      font-weight: 100;
-      padding: 5em 0;
-      letter-spacing: 0.2em;
-      text-transform: uppercase; }
+          padding: 10px;
+          border-radius: 100%; }
+          main section .wrapper .social li a {
+            vertical-align: middle;
+            color: #4A17CE; }
+    main section.float-bg {
+      background: url("../images/lady-float.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 300px;
+      background-attachment: fixed; }
+
+footer {
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: 100;
+  padding: 5em 0;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #fff;
+  background: #3A3A3A; }
 
 @media only screen and (max-width: 979px) {
   main .logo {
