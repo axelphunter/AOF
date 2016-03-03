@@ -52,6 +52,7 @@ header {
     background: url("/images/logo.png") no-repeat center;
     width: 800px;
     height: 450px;
+    background-size: contain;
     margin: 0 auto;
     text-indent: -9999em;
     white-space: nowrap;
@@ -173,11 +174,27 @@ footer {
 
 @media only screen and (max-width : 979px) {
 
-  main {
-
+  header {
+    min-width: 100%;
     .logo {
       width: 90%;
       background-size: 100%;
+    }
+  }
+
+  main {
+
+    section {
+      padding: 4em 1em;
+
+      .wrapper {
+        width: 100%;
+
+        .section-image {
+          margin-top: 2em;
+          max-width: 100%;
+        }
+      }
     }
   }
 
