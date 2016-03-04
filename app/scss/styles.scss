@@ -176,6 +176,7 @@ footer {
 
   header {
     min-width: 100%;
+    background-attachment: initial !important;
     .logo {
       width: 90%;
       background-size: 100%;
@@ -194,6 +195,10 @@ footer {
           margin-top: 2em;
           max-width: 100%;
         }
+      }
+
+      &.float-bg {
+        background-attachment: initial !important;
       }
     }
   }

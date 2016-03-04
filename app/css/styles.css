@@ -116,7 +116,8 @@ footer {
 
 @media only screen and (max-width: 979px) {
   header {
-    min-width: 100%; }
+    min-width: 100%;
+    background-attachment: initial !important; }
     header .logo {
       width: 90%;
       background-size: 100%; }
@@ -126,4 +127,6 @@ footer {
       width: 100%; }
       main section .wrapper .section-image {
         margin-top: 2em;
-        max-width: 100%; } }
+        max-width: 100%; }
+    main section.float-bg {
+      background-attachment: initial !important; } }
