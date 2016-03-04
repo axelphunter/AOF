@@ -79,46 +79,51 @@ main {
       text-align: center;
 
       .section-image {
-        margin-top: 2em;
+        margin-bottom: 1em;
       }
 
       .slideshow-btn {
         cursor: pointer;
       }
 
-      h4 {
-        font-weight: bold;
-        font-size: 2em;
-        margin-top: 1em;
-        text-transform: uppercase;
-      }
-
       p {
         text-align: justify;
-        font-size: 1.2em;
-        line-height: 1.2em;
-        margin-top: 0.5em;
+        font-size: 1em;
+        margin-bottom: 0.8em;
+        color: #777;
+        line-height: 1.5em;
+        letter-spacing: 0.1px;
       }
 
       h2 {
-        font-size: 5em;
+        font-size: 4em;
         text-align: center;
         font-weight: bold;
-        margin-top: 0.2em;
-      }
-
-      .calign {
-        text-align: center;
+        margin-bottom: 0.8em;
+        color: #232E30;
       }
 
       h3 {
         font-size: 1.2em;
-        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        font-weight: bold;
 
         a {
           text-decoration: none;
           color: #7B27B1;
         }
+      }
+
+      h4 {
+        font-weight: bold;
+        font-size: 2em;
+        margin-bottom: 0.8em;
+        color: #232E30;
+        text-transform: uppercase;
+      }
+
+      .calign {
+        text-align: center;
       }
 
       .social {

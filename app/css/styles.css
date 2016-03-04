@@ -53,32 +53,37 @@ main {
       margin: 0 auto;
       text-align: center; }
       main section .wrapper .section-image {
-        margin-top: 2em; }
+        margin-bottom: 1em; }
       main section .wrapper .slideshow-btn {
         cursor: pointer; }
-      main section .wrapper h4 {
-        font-weight: bold;
-        font-size: 2em;
-        margin-top: 1em;
-        text-transform: uppercase; }
       main section .wrapper p {
         text-align: justify;
-        font-size: 1.2em;
-        line-height: 1.2em;
-        margin-top: 0.5em; }
+        font-size: 1em;
+        margin-bottom: 0.8em;
+        color: #777;
+        line-height: 1.5em;
+        letter-spacing: 0.1px; }
       main section .wrapper h2 {
-        font-size: 5em;
+        font-size: 4em;
         text-align: center;
         font-weight: bold;
-        margin-top: 0.2em; }
-      main section .wrapper .calign {
-        text-align: center; }
+        margin-bottom: 0.8em;
+        color: #232E30; }
       main section .wrapper h3 {
         font-size: 1.2em;
-        margin-top: 0.5em; }
+        margin-bottom: 0.5em;
+        font-weight: bold; }
         main section .wrapper h3 a {
           text-decoration: none;
           color: #7B27B1; }
+      main section .wrapper h4 {
+        font-weight: bold;
+        font-size: 2em;
+        margin-bottom: 0.8em;
+        color: #232E30;
+        text-transform: uppercase; }
+      main section .wrapper .calign {
+        text-align: center; }
       main section .wrapper .social {
         width: 100%;
         text-align: center;
